@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Urbanist } from 'next/font/google';
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const urbanist = Urbanist({
   subsets: ['latin'],
@@ -22,7 +23,14 @@ export default function RootLayout({
       <body
         className={urbanist.className}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
