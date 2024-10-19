@@ -1,4 +1,5 @@
 import AboutMe from "@/components/about-me";
+import Skills from "@/components/skills";
 import Intro from "@/components/intro";
 import Navbar from "@/components/navbar";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar/>
       <Intro/>
       <AboutMe/>
+      <Skills/>
     </main>
   );
 }
