@@ -8,6 +8,21 @@ interface SkillIcons {
 export const skillIcons: SkillIcons = {
     "HTML": <Image src="/html5.png" alt="HTML" height= {20} width={20} />,
     "JavaScript": <Image src="/javaScript.png" alt="HTML" height= {20} width={20} />,
+    "Angular": <Image src="/angular.png" alt="HTML" height= {20} width={20} />,
+    "CSS": <Image src="/css3.png" alt="HTML" height= {20} width={20} />,
+    "TypeScript": <Image src="/ts.png" alt="HTML" height= {20} width={20} />,
+    "Loopback": <Image src="/loopback.png" alt="HTML" height= {20} width={20} />,
+    "ElasticSearch": <Image src="/elastic.png" alt="HTML" height= {20} width={20} />,
+    "Flutter": <Image src="/flutter.png" alt="HTML" height= {20} width={20} />,
+    "MongoDB": <Image src="/mongodb.png" alt="HTML" height= {20} width={20} />,
+    "MySQL": <Image src="/mySQL.png" alt="HTML" height= {20} width={20} />,
+    "Next.js": <Image src="/nextJs.png" alt="HTML" height= {20} width={20} />,
+    "Node.js": <Image src="/nodeJS.png" alt="HTML" height= {20} width={20} />,
+    "PostgreSQL": <Image src="/postgre.png" alt="HTML" height= {20} width={20} />,
+    "Python": <Image src="/python.png" alt="HTML" height= {20} width={20} />,
+    "React": <Image src="/react.png" alt="HTML" height= {20} width={20} />,
+    "SQLLite": <Image src="/sqlLite.png" alt="HTML" height= {20} width={20} />,
+    "Tailwind CSS": <Image src="/tailwindcss.png" alt="HTML" height= {20} width={20} />,
 
   };
 export const itemsNavbar = [
@@ -56,6 +71,26 @@ export const skillsData = [
             {
                 name: "React",
                 subtitle: "",
+            },
+            {
+                name: "Angular",
+                subtitle: "",
+            },
+            {
+                name: "TypeScript",
+                subtitle: "",
+            },
+            {
+                name: "Flutter",
+                subtitle: "",
+            },
+            {
+                name: "Next.js",
+                subtitle: "",
+            },
+            {
+                name: "Python",
+                subtitle: "",
             }
         ],
     },
@@ -91,6 +126,10 @@ export const skillsData = [
                 name: "AWS",
                 subtitle: "",
             },
+            {
+                name: "Azure",
+                subtitle: "",
+            }
         ],
         
     },

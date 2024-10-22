@@ -21,9 +21,7 @@ const Skills = () => {
                             {data.skills.map((item) => (
                                 <div key={item.name} className="my-4">
                                     <p className="flex gap-2 mb-2">
-                                    {skillIcons[item.name] && (
-                      <span className="mr-2">{skillIcons[item.name]}</span>
-                    )}
+                                    {skillIcons[item.name] && (<span className="mr-2">{skillIcons[item.name]}</span>)}
                                         {item.name}
                                     </p>
                                     <p className="text-gray-400 mb-2">{item.subtitle}</p>
