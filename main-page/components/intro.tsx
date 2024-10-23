@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Paperclip } from "lucide-react";
+import { Code2, Mail, Paperclip } from "lucide-react";
 
 import { buttonVariants } from "./ui/button";
 import Container from "./shared/container";
@@ -25,6 +25,11 @@ const Intro = () => {
                             target="_blank">
                             <Paperclip className="mr-2" /> Download CV
                         </Link>
+                        {/* <Link className={buttonVariants()}
+                            href="https://github.com/Loann-ca"
+                            target="_blank">
+                            <Code2 className="mr-2" /> Github
+                        </Link>*/}
                     </div>
                 </div>
                 <Image src="/foto.jfif" alt="Profile pic" width={200} height={200} className="rounded-full mx-auto p-4" />
