@@ -226,3 +226,25 @@ export const dataContact = [
         icon: <Inbox />,
     },
 ];
+
+export const projectsData = [
+    {
+        id: 1,
+        title: "Proyecto Uno",
+        description: "Descripción del proyecto uno.",
+        images: [
+            "/angular.png",
+            "/AWS.png",
+            "/dart.png"
+        ],
+        link: "https://enlace-al-proyecto1.com"
+    },
+    {
+        id: 2,
+        title: "Proyecto Dos",
+        description: "Descripción del proyecto dos.",
+        images: [
+        ],
+        link: "https://enlace-al-proyecto2.com"
+    },
+];

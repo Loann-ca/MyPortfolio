@@ -3,6 +3,8 @@ import Skills from "@/components/skills";
 import Intro from "@/components/intro";
 import Navbar from "@/components/navbar";
 import ContactMe from "@/components/contact-me";
+import Projects from "@/components/projects";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Intro/>
       <AboutMe/>
       <Skills/>
+      <Projects/>
       <ContactMe/>
     </main>
   );
