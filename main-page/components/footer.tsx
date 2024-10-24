@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Mail, Github, Linkedin } from "lucide-react";
 import { dataContact } from "@/data";
 
 const Footer = () => {

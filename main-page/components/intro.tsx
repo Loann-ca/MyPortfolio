@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Code2, Mail, Paperclip } from "lucide-react";
+import { Mail, Paperclip } from "lucide-react";
 
 import { buttonVariants } from "./ui/button";
 import Container from "./shared/container";

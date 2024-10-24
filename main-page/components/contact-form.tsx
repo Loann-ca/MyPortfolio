@@ -9,7 +9,6 @@ import { Form, FormControl, FormField, FormItem, FormMessage } from "./ui/form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
-import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
 const ContactForm = () => {
@@ -42,7 +41,7 @@ const ContactForm = () => {
       } else {
         toast.error("Error al enviar el formulario");
       }
-    } catch (error) {
+    } catch {
       toast.error("Error al enviar el formulario");
     }
   };
