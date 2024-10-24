@@ -1,4 +1,4 @@
-import { Code2, Home, Inbox, Mail, Phone, SquareChartGantt, UserRound } from "lucide-react";
+import { Code2, FolderKanban, Home, Inbox, Mail, Phone, SquareChartGantt, UserRound } from "lucide-react";
 import Image from "next/image";
 
 
@@ -50,9 +50,15 @@ export const itemsNavbar = [
         title: "Skills",
         icon: <SquareChartGantt size={20} />,
         link: "#skills",
-    },
+    },  
     {
         id: 4,
+        title: "Projects",
+        icon: <FolderKanban size={20} />,
+        link: "#projects",
+    },
+    {
+        id: 5,
         title: "Mail",
         icon: <Mail size={20} />,
         link: "#contact",
