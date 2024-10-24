@@ -32,7 +32,7 @@ const Intro = () => {
                         </Link>*/}
                     </div>
                 </div>
-                <Image src="/foto.jfif" alt="Profile pic" width={200} height={200} className="rounded-full mx-auto p-4" />
+                <Image src="/foto.png" alt="Profile pic" width={200} height={200} className="rounded-full mx-auto p-4" />
             </div>
         </Container>
     );
